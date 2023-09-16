@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CalculatorClassLibrary\**" />
+    <Compile Remove="CalculatorWinFormsApp\**" />
+    <EmbeddedResource Remove="CalculatorClassLibrary\**" />
+    <EmbeddedResource Remove="CalculatorWinFormsApp\**" />
+    <None Remove="CalculatorClassLibrary\**" />
+    <None Remove="CalculatorWinFormsApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CalculatorClassLibrary\CalculatorClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
