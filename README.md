@@ -1,4 +1,4 @@
-# Calculator
+# Calculator Demo (SOLID)
 
 This is a demo project to show the use of SOLID programming techniques in use. Solid stands for:
 
